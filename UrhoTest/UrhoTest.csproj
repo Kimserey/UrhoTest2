@@ -85,6 +85,10 @@
     <AndroidAsset Include="Assets\Data\Fonts\Font.ttf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AndroidAsset>
+    <AndroidAsset Include="Assets\Data\Models\Plane.mdl" />
+    <AndroidAsset Include="Assets\Data\Materials\StoneTiled.xml" />
+    <AndroidAsset Include="Assets\Data\Textures\StoneDiffuse.dds" />
+    <AndroidAsset Include="Assets\Data\Textures\StoneNormal.dds" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\UrhoSharp.1.2.21\build\MonoAndroid\UrhoSharp.targets" Condition="Exists('..\packages\UrhoSharp.1.2.21\build\MonoAndroid\UrhoSharp.targets')" />

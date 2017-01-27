@@ -1,10 +1,10 @@
-[Fri Jan 27 16:47:42 2017] INFO: Opened log file Urho3D.log
-[Fri Jan 27 16:47:42 2017] INFO: Created 1 worker thread
-[Fri Jan 27 16:47:42 2017] INFO: Added resource package /Users/kimsereylam/Projects/UrhoTest/Assets/CoreData.pak
-[Fri Jan 27 16:47:42 2017] INFO: Added resource path /Users/kimsereylam/Projects/UrhoTest/Assets/Data/
-[Fri Jan 27 16:47:43 2017] INFO: Set screen mode 1152x2048 windowed
-[Fri Jan 27 16:47:43 2017] INFO: Initialized input
-[Fri Jan 27 16:47:43 2017] INFO: Initialized user interface
-[Fri Jan 27 16:47:43 2017] INFO: Initialized renderer
-[Fri Jan 27 16:47:43 2017] INFO: Set audio mode 44100 Hz stereo interpolated
-[Fri Jan 27 16:47:43 2017] INFO: Initialized engine
+[Fri Jan 27 23:32:47 2017] INFO: Opened log file Urho3D.log
+[Fri Jan 27 23:32:47 2017] INFO: Created 1 worker thread
+[Fri Jan 27 23:32:47 2017] INFO: Added resource package /Users/kimsereylam/Projects/UrhoTest/Assets/CoreData.pak
+[Fri Jan 27 23:32:47 2017] INFO: Added resource path /Users/kimsereylam/Projects/UrhoTest/Assets/Data/
+[Fri Jan 27 23:32:47 2017] INFO: Set screen mode 1152x2048 windowed
+[Fri Jan 27 23:32:47 2017] INFO: Initialized input
+[Fri Jan 27 23:32:47 2017] INFO: Initialized user interface
+[Fri Jan 27 23:32:47 2017] INFO: Initialized renderer
+[Fri Jan 27 23:32:47 2017] INFO: Set audio mode 44100 Hz stereo interpolated
+[Fri Jan 27 23:32:47 2017] INFO: Initialized engine

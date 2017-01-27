@@ -18,7 +18,10 @@ namespace UrhoTest
 			UnhandledException += (s, e) =>
 			{
 				if (Debugger.IsAttached)
+				{
+					Debug.WriteLine(e.Exception.Message);
 					Debugger.Break();
+				}
 				e.Handled = true;
 			};
 		}
@@ -29,24 +32,27 @@ namespace UrhoTest
 			CreateScene();
 		}
 
-		Scene _scene;
-		Text _helloWorld;
-
 		async void CreateScene()
 		{
-			_scene = new Scene();
-			_scene.CreateComponent<Octree>();
+			Scene scene = new Scene();
+			scene.CreateComponent<Octree>();
 
-			_helloWorld = new Text { 
-				Value = "Hello world",
-				HorizontalAlignment = HorizontalAlignment.Center,
-				VerticalAlignment = VerticalAlignment.Center
-			};
-			_helloWorld.SetColor(new Color(0f, 1f, 1f));
-			_helloWorld.SetFont(
-				ResourceCache.GetFont("Fonts/Font.ttf"), 
-				20);
-			UI.Root.AddChild(_helloWorld);
+			var planeNode = scene.CreateChild("Plane");
+			var plane = planeNode.CreateComponent<StaticModel>();
+			plane.Model = ResourceCache.GetModel("Models/Plane.mdl");
+			plane.SetMaterial(ResourceCache.GetMaterial("Materials/StoneTiled.xml"));
+			planeNode.Scale = new Vector3(100, 1, 100);
+			planeNode.Position = new Vector3(10, 10, 10);
+			         
+			var lightNode = scene.CreateChild("DirectionalLight");
+			lightNode.SetDirection(new Vector3(0.6f, -1.0f, 0.8f));
+			lightNode.CreateComponent<Light>();
+
+			var cameraNode = scene.CreateChild("camera");
+			var camera = cameraNode.CreateComponent<Camera>();
+			cameraNode.Position = (new Vector3(0.0f, 0.0f, -10.0f));
+
+			Renderer.SetViewport(0, new Viewport(Context, scene, camera, null));
 		}
 	}
 }

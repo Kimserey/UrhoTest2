@@ -12,7 +12,11 @@ namespace UrhoTest
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
-			UrhoSurface.RunInActivity<Game>(new ApplicationOptions("Data"));
+			UrhoSurface.RunInActivity<Game>(
+				new ApplicationOptions("Data") { 
+					Orientation = ApplicationOptions.OrientationType.Portrait 
+				}
+			);
 		}
 	}
 }
