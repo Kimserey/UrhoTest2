@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrhoTest", "UrhoTest\UrhoTest.csproj", "{641CD8BB-E9C9-4A22-A3D0-14E051CACF14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{9A10A252-88AA-433D-973D-AAF734D29E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrhoTest.Console", "UrhoTest.Console\UrhoTest.Console.csproj", "{A2187F75-7412-4D7E-89EF-F73E842DF12E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{641CD8BB-E9C9-4A22-A3D0-14E051CACF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641CD8BB-E9C9-4A22-A3D0-14E051CACF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641CD8BB-E9C9-4A22-A3D0-14E051CACF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641CD8BB-E9C9-4A22-A3D0-14E051CACF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A10A252-88AA-433D-973D-AAF734D29E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A10A252-88AA-433D-973D-AAF734D29E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A10A252-88AA-433D-973D-AAF734D29E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A10A252-88AA-433D-973D-AAF734D29E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2187F75-7412-4D7E-89EF-F73E842DF12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2187F75-7412-4D7E-89EF-F73E842DF12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2187F75-7412-4D7E-89EF-F73E842DF12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2187F75-7412-4D7E-89EF-F73E842DF12E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
