@@ -89,6 +89,7 @@
     <AndroidAsset Include="Assets\Data\Materials\StoneTiled.xml" />
     <AndroidAsset Include="Assets\Data\Textures\StoneDiffuse.dds" />
     <AndroidAsset Include="Assets\Data\Textures\StoneNormal.dds" />
+    <AndroidAsset Include="Assets\Data\Images\Balloons_01_64x64_Alt_00_001.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\UrhoSharp.1.2.21\build\MonoAndroid\UrhoSharp.targets" Condition="Exists('..\packages\UrhoSharp.1.2.21\build\MonoAndroid\UrhoSharp.targets')" />
