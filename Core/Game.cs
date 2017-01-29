@@ -41,7 +41,7 @@ namespace UrhoTest
 			var plane = planeNode.CreateComponent<StaticModel>();
 			plane.Model = ResourceCache.GetModel("Models/Plane.mdl");
 			plane.SetMaterial(ResourceCache.GetMaterial("Materials/StoneTiled.xml"));
-			planeNode.Scale = new Vector3(100, 1, 100);
+			planeNode.Scale = new Vector3(100, 1, 100); 
 			planeNode.Position = new Vector3(10, 10, 10);
 			         
 			var lightNode = scene.CreateChild("DirectionalLight");
